@@ -1,0 +1,10 @@
+.metronome {
+  height: 40vmin;
+  pointer-events: none;
+  margin-bottom: 50px;
+
+  &.flipped {
+    transform: scale(-1, 1);
+    transform-origin: center;
+  }
+}

@@ -1,0 +1,17 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+  color: black;
+
+  >p {
+    margin-bottom: 10px;
+  }
+
+  .subtitle {
+    margin-bottom: 20px;
+    font-size: 30px;
+  }
+}

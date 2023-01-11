@@ -1,0 +1,49 @@
+$button-width: 200px;
+$slider-height: 25px;
+
+.button-and-slider-section {
+  display: flex;
+  flex-direction: column;
+
+  .tempo-recorder-button {
+    width: $button-width;
+    height: 50px;
+    color: ghostwhite;
+    background: darkblue;
+    border: darkblue 1px solid;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    pointer-events: auto;
+
+    &:hover {
+      background: blue;
+      border: blue 1px solid;
+    }
+
+    &.reset {
+      background: red;
+      border: red 1px solid;
+
+      &:hover {
+        background: white;
+        color: red;
+      }
+    }
+  }
+
+  .progress-slider {
+    width: $button-width;
+    height: $slider-height;
+    background: lightgray;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    display: flex;
+
+    .progress-slider-inner {
+      height: $slider-height;
+      background: green;
+    }
+  }
+}
+
+
